@@ -16,6 +16,7 @@ public class character : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+     
         if (Input.GetAxis("Vertical") > 0)
         {
          _animator.SetTrigger("walk");
